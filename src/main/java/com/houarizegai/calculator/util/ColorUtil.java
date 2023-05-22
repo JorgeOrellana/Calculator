@@ -10,7 +10,7 @@ public class ColorUtil {
     }
 
     public static Color hex2Color(String colorHex) {
-        just tesing
+        System.out.println("Hello...");
         return Optional.ofNullable(colorHex)
                 .map(hex -> new Color(
                         Integer.valueOf(colorHex.substring(0, 2), 16),
